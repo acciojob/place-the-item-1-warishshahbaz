@@ -1,2 +1,18 @@
-
-/* Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.holder>div{
+	width:100px;
+	height:100px;
+	background-color:blue;
+	border:2px solid;
+	text-align:center;
+	font-size:50px;
+}
+#A{order:5;}
+#B{order: ;}
+#C{order: ;}
+#D{order: ;}
+#E{order: ;}
